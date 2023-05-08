@@ -1,0 +1,20 @@
+{
+    "name": "helloworldpsd",
+    "version": "1.0.0",
+    "description": "SimpleHelloWorld",
+    "license": "Apache 2.0",
+    
+    "private": true,
+    "author": {
+        "name": "",
+        "email": "pierluigi.plebani@polimi.it"
+    },
+    "main": "index.js",
+    "scripts": {
+        "prestart": "npm install --only=prod",
+        "start": "node index.js"    },
+    "dependencies": {
+        "express": "^4.18.0",
+        "@oas-tools/core": "^3.0.0"
+    }
+}
